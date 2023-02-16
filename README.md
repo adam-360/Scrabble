@@ -1,7 +1,7 @@
 # Scrabble mobile and desktop app
 
 ## About
-This is a continuation of the web app version of the popular board game Scrabble created in the context of an academic project (see https://github.com/lt101/scrabble-web-app for details). This version includes a multiplayer desktop app built with Electron.js and a mobile app written in Flutter. It implements Socket.io for client-server communication and a REST API for persistance with a MongoDB database.
+This is a continuation of the web app version of the popular board game Scrabble created in the context of an academic project. This version includes a multiplayer desktop app built with Electron.js and a mobile app written in Flutter. It implements Socket.io for client-server communication and a REST API for persistance with a MongoDB database.
 <p align="center">
     <img src="images/scrabble-desktop-game-dark.png" width="600">
 </p>
@@ -39,7 +39,7 @@ The in-game language is set to French by default. To change the language to Engl
 - Public: Anyone can join a public game, but they must enter the password that was set by the host. Once started, public games can be observed by players.
 
 ## Gameplay
-To start a classic Scrabble game, click on *Classic Scrabble*, then *Create a game*. Set the game paramters (Timer, Dictionary and Visibility). When you are ready, confirm the settings and create the game. The version currently only has a beginner level, so choose *Débutant*. Click on *Initialiser La Partie* when you are ready to start the game and wait for a player to join the game.
+To start a classic Scrabble game, click on *Classic Scrabble*, then *Create a game*. Set the game parameters (Timer, Dictionary and Visibility). When you are ready, confirm the settings and create the game. The version currently only has a beginner level, so choose *Débutant*. Click on *Initialiser La Partie* when you are ready to start the game and wait for a player to join the game.
 To join a classic Scrabble game, click on *Classic Scrabble*, then *Join a game*. You will see a list of available games filtered by their visibility. 
 
 Each turn, the player can either place letters to form a word, exchange letters or pass the turn.
